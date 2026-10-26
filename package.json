@@ -1,0 +1,18 @@
+
+{
+  "name": "docker-express-mongodb",
+  "version": "1.0.0",
+  "description": "Homework 68.1 - Docker, Express and MongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --legacy-watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
